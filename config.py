@@ -1,0 +1,2 @@
+bot_token = "7356462624:AAHqzNXURUq_OqGvQovI9VgjMXDDsOE4_Uo"
+chat_id = -1002195121529
