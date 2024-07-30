@@ -1,2 +1,7 @@
-bot_token = "7356462624:AAHqzNXURUq_OqGvQovI9VgjMXDDsOE4_Uo"
-chat_id = -1002195121529
+import os
+
+
+class Config:
+    SECRET_KEY = os.environ.get('SECRET_KEY') or 'you-will-never-guess'
+    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or 'sqlite:///app.db'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
